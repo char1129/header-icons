@@ -1,7 +1,8 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Merriweather",serif;
   line-height: 1.5;
+  font-size: 1.125rem;
 }
 
 *, *::before, *::after {
@@ -15,4 +16,12 @@ body {
 img {
   display: block;
   width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  background-color: #d05c2e;
+  color: #fff;
 }
