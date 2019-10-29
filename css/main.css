@@ -22,7 +22,7 @@ header {
   background-color: #d05c2e;
 }
 
-.grains {
+.grain-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -45,17 +45,18 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  border: 1px solid #a63f38;
 }
 
 nav li {
-  border: 2px solid #a63f38;
+  border-right: 1px solid #a63f38;
+  border-left: 1px solid #a63f38;
 }
 
 a {
   color: #fff;
   text-decoration: none;
   text-align: center;
-  flex-basis: 33.33%;
   margin: 1rem;
 }
 
