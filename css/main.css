@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: Merriweather, serif;
   line-height: 1.5rem;
+  color: #fff;
 }
 
 *, *::before, *::after {
@@ -25,10 +26,10 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .top div {
-  display: flex;
 }
 
 .grains div {
@@ -37,7 +38,8 @@ header {
 
 nav {
   background-color: #d05c2e;
-  padding: 1em;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul {
@@ -46,13 +48,21 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  border: 2px solid #a63f38;
+
 }
 
 nav li {
+  border: 2px solid #a63f38;
 }
 
 a {
   color: #fff;
-  text-decoration: none;;
+  text-decoration: none;
+  text-align: center;
+  flex-basis: 33.33%;
+  margin: 1rem;
+}
+
+a:hover {
+  background-color: #a63f38;
 }
