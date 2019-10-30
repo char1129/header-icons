@@ -41,7 +41,7 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -51,6 +51,7 @@ nav ul {
 nav li {
   border-right: 1px solid #a63f38;
   border-left: 1px solid #a63f38;
+  padding: .5em 0;
 }
 
 a {
